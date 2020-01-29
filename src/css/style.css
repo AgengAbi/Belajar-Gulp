@@ -5,7 +5,9 @@
 /*header*/
 /*hero*/
 .hero{
-	padding: 30px 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
 }
 .col-md-4{
 	display: flex;
@@ -41,9 +43,9 @@
   font-weight: 400;
 }
 .btn--orange {
-  border-color: #FF4136;
+  border-color: #6C63FF;
   color: white;
-  background-color: #FF4136;
+  background-color: #6C63FF;
 }
 
 .hero img{
@@ -55,26 +57,74 @@
 }
 
 /*content*/
-.content__quotes{
-	margin-top: 50px;
-	background-color: red;
-	height: 50vh;
+.content{
+	background-color: #66ff66;
+}
+.content__invitation{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+	padding-top: 30px;
 }
-.content__quotes__p{
-	font-size: 42px;
-	color: white;
-	text-align: center;
+
+.content__invitation__title p{
+	font-size: 26px;
+	margin-bottom: 50px;
 }
-.content__quotes__p--mini{
+.content__invitation__title img{
+	width: 650px;
+}
+
+.content__performance{
+	padding-bottom: 30px;
+}
+.col-md-5 img{
+	width: 400px;
+}
+.col-md-7{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.text--header{
 	font-size: 18px;
-	color: white;
-	text-align: center;
+	font-weight: bold;
 }
+.text--desc{
+	font-size: 16px;
+}
+
+.content__founder{
+	height: 50vh;
+	padding-top: 30px;
+}
+
+.content__founder .text{
+	font-size: 32px;
+	display: flex;
+	justify-content: center;
+}
+
+.founder--img{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+.content__founder img{
+	height: 200px;
+	width: 200px;
+	margin-left: 10px;
+}
+
+
+
 @media only screen and (max-width: 768px){
-	.row{
+	.hero .row{
 		flex-direction:column-reverse;
+	}
+	.content__performance .row{
+		flex-direction: column-reverse;
 	}
 }
