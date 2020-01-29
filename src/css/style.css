@@ -5,6 +5,7 @@
 /*header*/
 /*hero*/
 .hero{
+	padding: 30px 0;
 }
 .col-md-4{
 	display: flex;
