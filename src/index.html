@@ -7,111 +7,208 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- font tambahan -->
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
 
-    <!-- css self -->
-    <link rel="stylesheet" href="style.css">
+    <!-- css sendiri -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>HookEmployee</title>
+    <title>Edumantapu</title>
   </head>
   <body>
-  	<!-- header -->
-  	<nav class="navbar navbar-expand-lg navbar-light">
-  		<div class="container">
-		  <a class="navbar-brand" href="#">HookEmployee</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNav">
-		    <ul class="navbar-nav ml-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Learn More</a>
-		      </li>
-		    </ul>
-		  </div>
-	  </div>
-	</nav>
-	<!-- hero -->
-	<div class="hero">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Edumantapu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Features</a>
+        <a class="nav-item nav-link" href="#">About</a>
+        <a class="nav-item btn btn-primary tombol" href="#">Join Us</a>
+      </div>
+    </div>
+    </div>
+  </nav>
+    <!-- akhir navbar -->
+    <!-- jumbotorn -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <h1 class="display-4">Learn <span>faster</span><br> and <span>better</span> with us</h1>
+        <a href="" class="btn btn-primary tombol">Learn Now</a>
+    </div>
+  </div>
+    <!-- akhir jumbotorn -->
+    <!-- container -->
+    <div class="container">
+      <!-- info panel -->
+      <div class="row justify-content-center">
+        <div class="col-lg-10 info-panel">
+          <div class="row">
+          	<div class="col-md-4 panel">
+          		<div class="panel__image">
+          			<img src="studying.svg" alt="">
+          		</div>
+          		<p class="text--header">
+          			Lorem
+          		</p>
+          		<p class="text__desc--mini">
+          			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, libero amet accusantium doloribus? Est, ex?
+          		</p>
+          	</div>
+          	<div class="col-md-4 panel">
+          		<div class="panel__image">
+          			<img src="studying.svg" alt="">
+          		</div>
+          		<p class="text--header">
+          			Lorem
+          		</p>
+          		<p class="text__desc--mini">
+          			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, libero amet accusantium doloribus? Est, ex?
+          		</p>
+          	</div>
+          	<div class="col-md-4 panel">
+          		<div class="panel__image">
+          			<img src="studying.svg" alt="">
+          		</div>
+          		<p class="text--header">
+          			Lorem
+          		</p>
+          		<p class="text__desc--mini">
+          			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, libero amet accusantium doloribus? Est, ex?
+          		</p>
+          	</div>
+          </div>
+        </div>
+      </div>
+      <!-- akhir info panel -->
+		<div class="headmaster">
+			<div class="row">
+				<div class="col-md-5 d-flex align-items-center justify-content-center">
+					<img src="bill-gates.jpg" class="img-fluid" alt="">
+				</div>
+				<div class="col-md-7 d-flex align-items-center">
+					<p class="text__hd--header">"Patience is a key element of success"</p>
+				</div>
+			</div>
+		</div>
+    </div>
+
+        <!-- find -->
+      <div class="find">
+      	<div class="row bg-dark">
+      		<div class="col-md-6">
+      			<img src="find.jpg" class="img-fluid" alt="">
+      		</div>
+      		<div class="col-md-6 d-flex justify-content-center">
+      			<h3>Find Your talent and interest</h3>
+      			<p class="text__desc--find"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quaerat adipisci autem magni, eos quos sequi, porro illo sint fugiat nesciunt.</p>
+      		</div>
+      	</div>
+      </div>
+      <!-- akhir find -->
+
+
+    <!-- courses -->
+	<div class="courses">
 		<div class="container">
+			<h1 class="d-flex justify-content-center">Our Courses</h1>
 			<div class="row">
 				<div class="col-md-4">
-					<div class="hero__textbox">
-						<p class="hero__textbox--goldcolor">
-							Ingin bekerja bebas kapan saja dan dimana saja?
-						</p>
-						<p class="hero__textbox--default">
-							Ayo gabung sekarang
-						</p>
-						<a href="https://css-tricks.com" class="btn btn--orange btn--big">
-						  <span class="btn__text">Ayo Mulai !</span>
-						</a>
-					</div>
+					<div class="card">
+					    <img src="find.jpg" class="card-img-top" alt="">
+					    <div class="card-body">
+					      <h5 class="card-title"><a href="">Card title</a></h5>
+					      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">Last updated 3 mins ago</small>
+				   		</div>
+				  </div>
 				</div>
-				<div class="col-md-8">
-					<img src="work.svg" class="img-fluid" alt="">
+				<div class="col-md-4">
+					<div class="card">
+					    <img src="find.jpg" class="card-img-top" alt="">
+					    <div class="card-body">
+					      <h5 class="card-title"><a href="">Card title</a></h5>
+					      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">Last updated 3 mins ago</small>
+				   		</div>
+				  </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+					    <img src="find.jpg" class="card-img-top" alt="">
+					    <div class="card-body">
+					      <h5 class="card-title"><a href="">Card title</a></h5>
+					      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">Last updated 3 mins ago</small>
+				   		</div>
+				  </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+					    <img src="find.jpg" class="card-img-top" alt="">
+					    <div class="card-body">
+					      <h5 class="card-title"><a href="">Card title</a></h5>
+					      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">Last updated 3 mins ago</small>
+				   		</div>
+				  </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+					    <img src="find.jpg" class="card-img-top" alt="">
+					    <div class="card-body">
+					      <h5 class="card-title"><a href="">Card title</a></h5>
+					      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">Last updated 3 mins ago</small>
+				   		</div>
+				  </div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+					    <img src="find.jpg" class="card-img-top" alt="">
+					    <div class="card-body">
+					      <h5 class="card-title"><a href="">Card title</a></h5>
+					      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					    </div>
+					    <div class="card-footer">
+					      <small class="text-muted">Last updated 3 mins ago</small>
+				   		</div>
+				  </div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- akhir hero -->
-  	<!-- akhir header -->
-  	<!-- content -->
-  		<div class="content">
-  			<div class="container">
-  				<div class="content__invitation">
-  					<div class="content__invitation__title">
-  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-  						<img src="happy.svg" class="img-fluid" alt="">
-  					</div>
-  				</div>
-  				<div class="content__performance">
-  					<div class="row">
-  						<div class="col-md-5">
-  							<img src="performance.svg" class="img-fluid" alt="">
-  						</div>
-  						<div class="col-md-7">
-  							<p class="text--header">Performa</p>
-  							<p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam excepturi sint doloribus sit, eaque necessitatibus ea. Pariatur doloribus nisi molestiae iste nam, ullam adipisci rerum atque eaque, laborum expedita incidunt.</p>
-  						</div>
-  					</div>
-  				</div>
-  				<div class="content__trusted">
-  					<div class="row">
-  						<div class="col-md-7">
-  							<p class="text--header">Terpercaya</p>
-  							<p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam excepturi sint doloribus sit, eaque necessitatibus ea. Pariatur doloribus nisi molestiae iste nam, ullam adipisci rerum atque eaque, laborum expedita incidunt.</p>
-  						</div>
-  						<div class="col-md-5">
-  							<img src="trust.svg" class="img-fluid" alt="">
-  						</div>
-  					</div>
-  				</div>
-  				<div class="content__fast">
-  					<div class="row">
-  						<div class="col-md-5">
-  							<img src="speed.svg" class="img-fluid" alt="">
-  						</div>
-  						<div class="col-md-7">
-  							<p class="text--header">Cepat dan aman</p>
-  							<p class="text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam excepturi sint doloribus sit, eaque necessitatibus ea. Pariatur doloribus nisi molestiae iste nam, ullam adipisci rerum atque eaque, laborum expedita incidunt.</p>
-  						</div>
-  					</div>
-  				</div>
-  				<div class="content__founder">
-  					<p class="text">Founder</p>
-  					<div class="founder--img">
-	  					<img src="female.svg" alt="">
-	  					<img src="male.svg" alt="">
-	  					<img src="female.svg" alt="">
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-  	<!-- akhir content -->
-
+    <!-- akhir courses -->
+	<div class="top">
+		<h1 class="d-flex justify-content-center">Top Mantapu</h1>
+		<div class="top__mantapu ">
+			<div class="row">
+				<div class="col-md-4 d-flex justify-content-center align-items-center">
+					<img src="female.svg" alt="">
+				</div>
+				<div class="col-md-4 d-flex justify-content-center align-items-center">
+					<img src="male.svg" alt=""></div>
+				<div class="col-md-4 d-flex justify-content-center align-items-center">
+					<img src="female.svg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
