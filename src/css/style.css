@@ -21,7 +21,6 @@ body{
 /*utility*/
 .tombol{
 	text-transform: uppercase;
-	border-radius: 40px;
 }
 /*jumbotorn*/
 .jumbotron{
@@ -30,6 +29,7 @@ body{
 	height: 100vh;
 	text-align: center;
 	position: relative;
+	margin-bottom: 0;
 }
 .jumbotron .container{
 	position: relative;
@@ -55,33 +55,61 @@ body{
 	font-weight: 500;
 }
 
-/*info panel*/
-.info-panel{
-	padding: 10px 0 50px;
-}
-.panel{
+/*why*/
+.why{
+	background-image: url(find.jpg);
+	height: 100vh;
+	background-size: cover;
+	object-fit: cover;
 	display: flex;
-	justify-content:center;
-	align-items: center;
 	flex-direction: column;
-	box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
-	margin-bottom:20px;
+	justify-content: center;
+	align-items: center;
 }
-.text--header{
-	font-size: 18px;
+.title-head{
+	font-size: 32px;
 	font-weight: bold;
+	color: white;
 }
-.text__desc{
-	font-size: 14px;
+.why .text{
+	font-weight: 500;
+	font-size: 24px;
+	color: white;
+}
+hr{
+	width: 30%;
+}
+.pro{
+	text-transform: uppercase;
+}
+
+
+/*benefit*/
+.benefit{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title-head-b{
+	font-size: 32px;
+	font-weight: bold;
+	width: 600px;
 	text-align: center;
+	margin-bottom: 30px;
 }
-.text__desc--mini{
-	text-align: center;
+.benefit-content{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
-.panel__image img{
-	height: 120px;
-	width: 150px;
+.img-benefit{
+	height: 400px;
+	border-radius: 50% 0;
 }
+
+
 
 
 .headmaster{
@@ -132,17 +160,23 @@ body{
 	color: black;
 }
 
-
-.top{
-	padding: 10px 0 50px;
+.trust{
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 30px;
 }
-.top__mantapu img{
-	margin-top:20px;
-	height: 200px;
-	width: 200px;
-	margin-left: 10px;
+.trust p{
+	font-weight: bold;
+	font-size: 32px;
+	color: white;
 }
-
+.trust button{
+	margin-top: 20px;
+	text-transform: uppercase;
+}
 
 
 /*desktop*/
@@ -168,6 +202,7 @@ body{
 	.jumbotron{
 		margin-top: -75px;
 		height: 640px;
+		height: 100vh
 	}
 	.jumbotron .display-4{
 		font-size: 63px;
